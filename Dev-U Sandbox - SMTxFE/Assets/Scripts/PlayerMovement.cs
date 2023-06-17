@@ -11,6 +11,11 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 movement;
 
+    void Start()
+    {
+        Debug.Log("Teste 123");
+    }
+
     // Update is called once per frame
     void Update()
     {

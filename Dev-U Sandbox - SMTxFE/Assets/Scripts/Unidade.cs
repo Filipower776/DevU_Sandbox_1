@@ -5,4 +5,5 @@ using UnityEngine;
 public abstract class Unidade : MonoBehaviour
 {
     int lvl, exp, hp, mp, str, mag, dex, spd, luck, def, res, mov;
+    string nome;
 }
